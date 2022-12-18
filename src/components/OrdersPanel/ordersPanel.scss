@@ -1,0 +1,43 @@
+.orders-panel{
+  background-color:  rgba(255, 249, 62,1);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 30px;
+  *{
+    font-size: 20px;
+  }
+  div{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    &:nth-child(1){
+      width: 65%;
+      border-right: 1px solid white;
+      background-color: green;
+      height: 100%;
+      color: white;
+    }
+  }
+}
+
+.comment-icon{
+  color: green;
+  display: block;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 0.1s  ease-in;
+
+  &:hover{
+    border-radius: 5px;
+    transform: scale(0.8)
+  }
+}

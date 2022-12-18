@@ -1,0 +1,24 @@
+.modal-btns{
+  background-color: rgba(49, 81, 81, 0.6);
+  border: none;
+  width: 100px;
+  &:hover{
+    background-color: rgba(49, 81, 81, 1);
+  }
+}
+
+.numbers-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+  li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(49, 81, 81, 1);
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+  }
+}

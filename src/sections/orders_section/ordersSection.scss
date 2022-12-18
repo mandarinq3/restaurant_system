@@ -1,0 +1,12 @@
+.table-number,.total-bill{
+  width: 100px;
+  height: 32.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  b{
+    color: rgba(255, 249, 62,1);
+    padding: 5px;
+    border-radius: 10px;
+  }
+}

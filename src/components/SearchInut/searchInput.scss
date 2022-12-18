@@ -1,0 +1,63 @@
+.custom-toggle{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  &:hover{
+    color: lightblue;
+  }
+}
+
+.searchIcon{
+  margin-top: 15px ;
+}
+
+.search-dropdown-menu-wrapper{
+  height: 250px;
+  overflow-y: scroll;
+  position: absolute;
+  right: 0px;
+  margin-top: 50px;
+}
+
+.list-unstyled a{
+  background-color: transparent!important;
+  color: darkslategray!important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  &:hover{
+    background-color: rgba($color: darkslategray, $alpha: 0.4)!important;
+  }
+}
+
+.not-available-order{
+  text-decoration: line-through;
+  color: red;
+  position: relative;
+  width: 100%;
+  &:hover{
+    &::before{
+      content: 'in stop list !';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      background-color: yellow;
+      color: darkslategrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.add-to-stop-btn{
+  color: red;
+}
+
+.showList{
+  background-color: red;
+}
